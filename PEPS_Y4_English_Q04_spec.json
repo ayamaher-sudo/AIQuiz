@@ -1,0 +1,260 @@
+{
+ "title": "The School Science Fair",
+ "year": 4,
+ "quiz_number": 4,
+ "mode": "test",
+ "layout": "paged",
+ "duration_minutes": 10,
+ "intro": "Reading comprehension: read the diary, then answer 10 questions.",
+ "passages": {
+  "P1": {
+   "title": "The School Science Fair",
+   "text": "Thursday, 12 March\n\nToday was the science fair at our school in Sharjah. I was very nervous because it was my first time, and my hands were shaking. My project was a volcano. Before the judges arrived, my friend Hamdan helped me put red paint inside it.\n\nAt ten o'clock, the judges walked to our table. I poured vinegar into the volcano, and red bubbles ran down the sides. Everyone clapped! The judges said my volcano was bigger than the others.\n\nThen I looked at the other projects. Layla made a tiny garden that grew inside a glass jar. I think her project was the most beautiful of all. Rashid's robot stopped working after five minutes, which was sad. In my opinion, it needed a stronger battery.\n\nAfter lunch, the teacher gave out the prizes. I won second place, and Layla won first place. I felt a little disappointed because I wanted to win, but I was proud of my volcano. Next year, I will try again!"
+  }
+ },
+ "questions": [
+  {
+   "type": "mcq",
+   "objective": "4Rd.01",
+   "also": [
+    "4Rm.01"
+   ],
+   "passage": "P1",
+   "shuffle": true,
+   "prompt": "What is the text mainly about?",
+   "options": [
+    "A day at a school science fair",
+    "How to build a volcano",
+    "A garden inside a glass jar",
+    "A robot that needs a battery"
+   ],
+   "answer": 0,
+   "explanation": "Every paragraph is about the writer's day at the science fair. The volcano, the garden and the robot are only parts of the day."
+  },
+  {
+   "type": "blanks",
+   "objective": "4Rd.03",
+   "passage": "P1",
+   "prompt": "Choose the best meaning for the word from the text.",
+   "text": "In the text, *nervous* means [[1]].",
+   "blanks": [
+    {
+     "options": [
+      "very sleepy",
+      "angry with a friend",
+      "worried and a little afraid",
+      "very happy"
+     ],
+     "answer": 2
+    }
+   ],
+   "explanation": "The writer says 'it was my first time, and my hands were shaking' - these clues show a worried, afraid feeling."
+  },
+  {
+   "type": "text",
+   "objective": "4Rd.01",
+   "passage": "P1",
+   "prompt": "At what time did the judges walk to the writer's table?",
+   "answer": "ten o'clock",
+   "accept": [
+    "10 o'clock",
+    "10 oclock",
+    "ten oclock",
+    "ten o clock",
+    "10",
+    "ten",
+    "10:00",
+    "10.00",
+    "at ten o'clock",
+    "at 10 o'clock",
+    "at ten",
+    "at 10"
+   ],
+   "input_hint": "Write the time.",
+   "explanation": "Paragraph 2 says: 'At ten o'clock, the judges walked to our table.'"
+  },
+  {
+   "type": "blanks",
+   "objective": "4Rd.03",
+   "passage": "P1",
+   "prompt": "Choose the best meaning for the word from the text.",
+   "text": "In the text, *tiny* means [[1]].",
+   "blanks": [
+    {
+     "options": [
+      "very old",
+      "very small",
+      "very heavy",
+      "very expensive"
+     ],
+     "answer": 1
+    }
+   ],
+   "explanation": "The garden grew 'inside a glass jar', so it must be very small."
+  },
+  {
+   "type": "mcq",
+   "objective": "4Ro.01",
+   "passage": "P1",
+   "shuffle": true,
+   "prompt": "Which sentence is the writer's opinion?",
+   "options": [
+    "Layla made a tiny garden.",
+    "I think her project was the most beautiful of all.",
+    "Rashid's robot stopped working after five minutes.",
+    "The judges walked to our table at ten o'clock."
+   ],
+   "answer": 1,
+   "explanation": "'I think' and 'most beautiful' show what the writer feels. The other sentences tell us things that happened (facts)."
+  },
+  {
+   "type": "tf",
+   "objective": "4Rd.01",
+   "passage": "P1",
+   "prompt": "True or false? *Rashid's robot worked for one hour.*",
+   "answer": false,
+   "explanation": "The text says the robot 'stopped working after five minutes', not one hour."
+  },
+  {
+   "type": "mcq",
+   "objective": "4Ro.01",
+   "passage": "P1",
+   "shuffle": true,
+   "prompt": "What is the writer's opinion about Rashid's robot?",
+   "options": [
+    "It stopped working after five minutes.",
+    "It won second place.",
+    "It needed a stronger battery.",
+    "It was too big for the table."
+   ],
+   "answer": 2,
+   "explanation": "'In my opinion, it needed a stronger battery.' Stopping after five minutes is a fact, not an opinion."
+  },
+  {
+   "type": "mcq",
+   "objective": "4Rd.03",
+   "passage": "P1",
+   "shuffle": true,
+   "prompt": "'I felt a little **disappointed** because I wanted to win.' What does *disappointed* mean?",
+   "options": [
+    "very angry with a friend",
+    "excited and surprised",
+    "tired and sleepy",
+    "a little sad because you wanted something better"
+   ],
+   "answer": 3,
+   "explanation": "The writer wanted to win but came second, so disappointed means a little sad that things were not as good as hoped."
+  },
+  {
+   "type": "mcq",
+   "objective": "4Ro.01",
+   "passage": "P1",
+   "shuffle": true,
+   "prompt": "Which sentence is a fact, not an opinion?",
+   "options": [
+    "I think her project was the most beautiful of all.",
+    "In my opinion, it needed a stronger battery.",
+    "Rashid's robot stopping was sad.",
+    "I won second place."
+   ],
+   "answer": 3,
+   "explanation": "'I won second place' really happened and can be checked. The other sentences show what the writer thinks or feels."
+  },
+  {
+   "type": "order",
+   "objective": "4Rd.01",
+   "passage": "P1",
+   "prompt": "Put the events in the order they happened.",
+   "items": [
+    "Hamdan helped put red paint in the volcano.",
+    "The judges walked to the table.",
+    "Red bubbles ran down the volcano.",
+    "The teacher gave out the prizes."
+   ],
+   "explanation": "Before the judges arrived (paint) → at ten o'clock (judges came) → vinegar and bubbles → after lunch (prizes)."
+  }
+ ],
+ "rubric": {
+  "4Rd.01": {
+   "Emerging": {
+    "descriptor": "Demonstrates limited understanding of specific information and detail in a short, simple text.",
+    "feedback": "Finds a detail only when the question uses the very same words as the text; may mix up what is true and false.",
+    "feedforward": "Underline the key word in the question, then find the same word in the text."
+   },
+   "Developing": {
+    "descriptor": "Demonstrates developing understanding of specific information and detail in a short text.",
+    "feedback": "Finds some details but sometimes picks an answer from the wrong paragraph or misses the order of events.",
+    "feedforward": "Read the sentence before and after the key word. Number the events as you read."
+   },
+   "Meets Expectations": {
+    "descriptor": "Demonstrates an appropriate understanding of most specific information in short, simple texts.",
+    "feedback": "Finds most details and the main idea; true/false and time-order questions still cause some mistakes.",
+    "feedforward": "For true/false, find the exact sentence and check every word, such as five minutes, not one hour."
+   },
+   "Secure": {
+    "descriptor": "Demonstrates secure understanding and accurate recall of specific information and detail.",
+    "feedback": "Finds details quickly, follows the order of events and understands the main idea of the text.",
+    "feedforward": "Tell a partner how you found each answer, using words like before, then and after."
+   },
+   "Exceeding": {
+    "descriptor": "Demonstrates confident, accurate and flexible understanding of detail in short texts.",
+    "feedback": "Consistently finds the right detail and sees how the parts of the text fit together.",
+    "feedforward": "Write three questions of your own about the diary for a partner to answer."
+   }
+  },
+  "4Rd.03": {
+   "Emerging": {
+    "descriptor": "Demonstrates limited ability to deduce meaning from context.",
+    "feedback": "Guesses new words without using the words around them, often picking a word that sounds similar.",
+    "feedforward": "Read the whole sentence and ask: what would make sense here?"
+   },
+   "Developing": {
+    "descriptor": "Demonstrates developing ability to deduce meaning from context.",
+    "feedback": "Works out some meanings, usually when the clue is right next to the word.",
+    "feedforward": "Look before and after the word for clues, like 'hands were shaking' for nervous."
+   },
+   "Meets Expectations": {
+    "descriptor": "Demonstrates an appropriate ability to deduce meaning from context in short texts.",
+    "feedback": "Works out most meanings but can be misled by a feeling word that fits only part of the sentence.",
+    "feedforward": "Put your meaning in place of the word and read the sentence again. Does it still make sense?"
+   },
+   "Secure": {
+    "descriptor": "Demonstrates secure and accurate deduction of meaning from context.",
+    "feedback": "Uses clues in the text to work out new words accurately.",
+    "feedforward": "Keep a word log: write the new word, its meaning and the clue that helped you."
+   },
+   "Exceeding": {
+    "descriptor": "Demonstrates confident, accurate and flexible deduction of meaning from context.",
+    "feedback": "Consistently works out meanings and can explain which clues helped.",
+    "feedforward": "Find another word for each new word (tiny = very small) and use it in a sentence of your own."
+   }
+  },
+  "4Ro.01": {
+   "Emerging": {
+    "descriptor": "Demonstrates limited recognition of the writer's opinions in a short, simple text.",
+    "feedback": "Often chooses a fact as the opinion, because it is in the text, and does not notice opinion words.",
+    "feedforward": "A fact can be checked. An opinion is what someone thinks or feels. Look for 'I think'."
+   },
+   "Developing": {
+    "descriptor": "Demonstrates developing recognition of the writer's opinions in a short text.",
+    "feedback": "Spots opinions that start with 'I think' but misses ones without those words.",
+    "feedforward": "Look for feeling words like beautiful, sad and best. They often show an opinion."
+   },
+   "Meets Expectations": {
+    "descriptor": "Demonstrates an appropriate recognition of the writer's opinions in short, simple texts.",
+    "feedback": "Finds most opinions but can be tricked by a fact that sounds important.",
+    "feedforward": "Ask: could I check this? If yes, it is a fact. If it is a feeling or a view, it is an opinion."
+   },
+   "Secure": {
+    "descriptor": "Demonstrates secure and accurate recognition of the writer's opinions.",
+    "feedback": "Tells facts from opinions accurately, including opinions without 'I think'.",
+    "feedforward": "Find one fact and one opinion in a short text and explain how you know."
+   },
+   "Exceeding": {
+    "descriptor": "Demonstrates confident, accurate and flexible recognition of the writer's opinions.",
+    "feedback": "Consistently separates facts from opinions and explains the clues the writer uses.",
+    "feedforward": "Rewrite three facts from the diary as opinions, then swap with a partner to check."
+   }
+  }
+ }
+}
